@@ -12,6 +12,9 @@ def bamnut(h, c, n):
         info("thong bao", "ban da tim thay gian diep!")
         n.text = ""
         n.image = "giandiep.png"
+        n.width = 162
+        n.height = 171
+        n.resize(True)
     else:
         info("thong bao", "sai roi, hay tim noi khac nao!")
 for i in range(3):
